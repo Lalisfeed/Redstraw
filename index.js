@@ -1,4 +1,4 @@
-function redstraw(child) {
+function redstraw() {
     let text = document.querySelectorAll('.redstraw')
     // quote insertion in each element with class "redstraw"
     text.forEach(txt => {
@@ -11,4 +11,4 @@ function redstraw(child) {
     })
 }
 // exporting quotes
-module.exports.redstraw = redstraw
+module.exports = {redstraw: redstraw}
