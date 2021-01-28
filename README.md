@@ -6,7 +6,9 @@
 
 # Installation
 
-`npm i redstraw --save`
+```
+npm i redstraw --save
+```
 
 # How to Use
 
